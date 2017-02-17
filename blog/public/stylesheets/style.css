@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  height: 0;
+  font-size: 0;
+  content: '';
+}
+.wrap{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.bg,.registBg{
+   width: 100%;
+   height: 100%;
+}
+.center{
+	width: 370px;
+	position: absolute;
+    top: 250px;
+    left: 0;
+    margin: auto;
+    bottom: 0;
+    right: 0;
+}
+.form-btn{
+	width: 205px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.form-group{
+	padding-top: 50px;
+}
+.form-group label{
+	color: #464646;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: right;
+	line-height: 2;
+}
+.form-pwd{
+	padding-left: 15px;
+}
+/*输入框*/
+.form-group input{
+	width: 250px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 18px;
+	border-radius: 8px;
+}
+.left{
+	float: left;
+}
+/*登录、注册按钮*/
+.login,.regist,.registBtn{
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 6px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.login{
+   margin-right: 35px;
+   background: #418BCA;
+   border: 1px solid #418BCA;
+}
+.regist,.registBtn{
+	background: #5BB85D;
+	border: 1px solid #5BB85D;
+}
+.registBtn{
+	margin:30px 0 0 55px;
+}
+.warn{
+	color: red;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bolder;
+}
